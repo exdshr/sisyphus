@@ -1,0 +1,149 @@
+* {
+  font-family: JetbrainsMono Nerd Font;
+  font-size: 16px;
+  min-height: 0;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-bottom: 0px;
+}
+
+#waybar {
+  background: transparent;
+  color: #ffffff;
+  margin: 2px 2px;
+}
+
+#workspaces {
+  border-radius: 5px;
+  margin: 5px;
+  background: transparent;
+  margin-left: 2px;
+}
+
+#workspaces button {
+  color: rgba(255, 255, 255, 0.4);
+  padding: 0.4rem;
+}
+
+#workspaces button.active {
+  color: rgba(255, 255, 255, 1);
+}
+
+button {
+  background: transparent;
+}
+
+#workspaces button:hover {
+  background: #1e1e1e;
+  border: 0px solid transparent;
+}
+
+#custom-music,
+#tray,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#network,
+#cpu,
+#memory,
+#custom-lock,
+#custom-power,
+#custom-weather,
+#custom-uptime,
+#custom-docker {
+  background-color: transparent;
+  padding: 0.5rem 1rem;
+  margin: 5px 0;
+}
+
+#clock {
+  color: #ffffff;
+}
+
+#custom-weather {
+  color: #ffffff;
+  margin-left: 0.5rem;
+}
+
+#battery {
+  color: #a6d189;
+}
+
+#battery.charging {
+  color: #a6d189;
+}
+
+#battery.warning:not(.charging) {
+  color: #e78284;
+}
+
+#backlight {
+  color: #e5c890;
+}
+
+#backlight,
+#battery {
+  border-radius: 0;
+}
+
+#pulseaudio {
+  color: #ffffff;
+}
+
+#custom-docker {
+  color: #85c1dc;
+}
+
+#custom-music {
+  color: #ffffff;
+}
+
+#custom-lock {
+  color: #babbf1;
+}
+
+#custom-power {
+  margin-right: 1rem;
+  color: #af0000;
+}
+
+#custom-docker.docker {
+  color: #85c1dc;
+}
+
+#custom-docker.docker-none {
+  color: #737994;
+}
+
+#custom-docker.docker-error {
+  color: #e78284;
+}
+
+#custom-weather.clear {
+  color: #e5c890; /* Sunny yellow */
+}
+
+#custom-weather.cloud {
+  color: #99d1db; /* Light blue */
+}
+
+#custom-weather.rain {
+  color: #8caaee; /* Blue */
+}
+
+#custom-weather.snow {
+  color: #c6d0f5; /* White-ish */
+}
+
+#custom-weather.thunder {
+  color: #ca9ee6; /* Purple */
+}
+
+#custom-weather.fog {
+  color: #b0b4bc; /* Gray */
+}
+
+#custom-weather.error {
+  color: #e78284; /* Red */
+}

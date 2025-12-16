@@ -1,0 +1,34 @@
+# Merope Light - Ghostty Theme
+# A minimalistic grayscale theme with selective accent colors
+# Based on the merope.nvim colorscheme (light mode)
+
+foreground = #0a0a0a
+background = #eeeeee
+cursor-color = #af0000
+cursor-text = #ffffff
+
+selection-foreground = #c6c6c6
+selection-background = #444444
+
+palette = 0=#121212
+palette = 1=#4e4e4e
+palette = 2=#767676
+palette = 3=#262626
+palette = 4=#585858
+palette = 5=#8a8a8a
+palette = 6=#9e9e9e
+palette = 7=#eeeeee
+palette = 8=#6c6c6c
+palette = 9=#af0000
+palette = 10=#005f00
+palette = 11=#af5f00
+palette = 12=#0087ff
+palette = 13=#af0087
+palette = 14=#c6c6c6
+palette = 15=#ffffff
+palette = 16=#999999
+palette = 17=#5e5e5e
+palette = 18=#e3e3e3
+palette = 19=#b9b9b9
+palette = 20=#525252
+palette = 21=#252525
